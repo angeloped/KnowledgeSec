@@ -1,0 +1,16 @@
+First of all unlock your bootloader.
+
+Steps to unlock bootloader using PC:
+
+    Install adb driver in your PC.
+    In your phone just enable developer mode and allow debugging mode on and OEM unlock on.
+    Now shut down your phone and restart in fastboot mode(by long pressing volume down and power button).
+    Connect your phone to PC.
+    Now open Command prompt.
+    Type command : fastboot devices
+    You will see your device connected.
+    Ones you see type another command : fastboot oem unlock
+    Now your bootloader is unlocked.
+    Now flash recovery.
+    After flashing recovery flash SuperSU using recovery through mobile only.
+    Now enjoy you have successfully rooted your device.
